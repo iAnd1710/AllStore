@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:backgroundTint="#E33535">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AllStore"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btAmazon"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:onClick="onAmazon"
+                android:src="@drawable/amazon" />
+
+            <TextView
+                android:id="@+id/txtAmazon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Amazon" />
+
+            <ImageButton
+                android:id="@+id/btAmericanas"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="onAme"
+                android:src="@drawable/americanas" />
+
+            <TextView
+                android:id="@+id/txtAmericanas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Americanas" />
+
+            <ImageButton
+                android:id="@+id/btMagalu"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="onMagalu"
+                android:src="@drawable/magalu" />
+
+            <TextView
+                android:id="@+id/txtMagalu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Magalu" />
+
+            <ImageButton
+                android:id="@+id/btSaraiva"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="onSaraiva"
+                android:src="@drawable/saraiva" />
+
+            <TextView
+                android:id="@+id/txtSaraiva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Saraiva" />
+
+            <ImageButton
+                android:id="@+id/btSubmarino"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="onSubmarino"
+                android:src="@drawable/submarino" />
+
+            <TextView
+                android:id="@+id/txtSubmarino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Submarino" />
+
+            <Button
+                android:id="@+id/btSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="10sp"
+                android:gravity="center"
+                android:onClick="onSobre"
+                android:text="Sobre" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
